@@ -89,6 +89,16 @@ int main() {
 
 
     
+
+
+
+
+
+
+
+Studentapla kf("kaf", "1115202100227", "I Represent Samila");
+    team.push_back(&kf);
+
     // area for object show up
     // objects on the screen
     for (auto i = team.rbegin(); i != team.rend(); i++)
@@ -96,3 +106,32 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Studentapla : public Human {
+ public:
+     StudentSuper(string a = "", string b = "", string c = "") : Human(a, b, c) {};
+     void show() { cout << name << " is the best" << endl; }
+ };
