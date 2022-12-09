@@ -12,10 +12,9 @@ public class Main {
    System.out.println(num);
    
    // >>>>>>>>>>>  01  >>>>>>>>>>>
-   // add the proper source code
-   // in order to change to increase
-   // the value of num with a method call
-   
+   Int numclass = num;
+   increase(numclass);
+   num = numclass;
    
    // <<<<<<<<<<  01  <<<<<<<<<<
    
@@ -26,7 +25,7 @@ public class Main {
    // >>>>>>>>>>>  02  >>>>>>>>>>>
    // you can change the method below
    // in ay way you want
-   static void increase(int x)
+   static void increase(Int x)
     {
         x += 1;
     }
