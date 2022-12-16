@@ -50,7 +50,10 @@ class Main{
       
 
 // >>>>>>>>>>>>> 06 >>>>>>>>>>>>>        
-        
+        Xmas Alex = new Xmas(){  
+            void speak(){System.out.println("Melomakarona for ever!!");}  
+        };  
+        Alex.speak();
 // <<<<<<<<<<<<< 06 <<<<<<<<<<<<<  
       
       
@@ -61,6 +64,11 @@ class Main{
 
 // >>>>>>>>>>>>> 08 >>>>>>>>>>>>>        
         
+        Xmas Objgp = new Xmas(){  
+            void speak(){System.out.println("hot tea");}  
+        };  
+        Objgp.speak(); 
+      
 // <<<<<<<<<<<<< 08 <<<<<<<<<<<<<
       
 
