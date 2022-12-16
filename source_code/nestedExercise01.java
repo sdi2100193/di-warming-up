@@ -22,7 +22,10 @@ class Main{
 
 
 // >>>>>>>>>>>>> 01 >>>>>>>>>>>>>        
-        
+        Xmas Obj01 = new Xmas(){  
+            void speak(){System.out.println("Will the real Kafritsas please stand up?");}  
+        };  
+        Obj01.speak();
 // <<<<<<<<<<<<< 01 <<<<<<<<<<<<<       
       
 
